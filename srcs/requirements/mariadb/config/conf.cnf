@@ -1,0 +1,6 @@
+[mysqld]								
+pid-file	        = /run/mysqld/mysqld.pid
+socket          	= /run/mysqld/mysqld.sock
+port			= 3306					
+datadir			= /var/lib/mysql		
+skip-networking		= false
